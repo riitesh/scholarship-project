@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRINAYTRA</title>
+  <link rel="shortcut icon" href="assets/images/partner/favicon.png" type="image/png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+ 
+  
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/media_queries.css">
+  <link rel="stylesheet" href="./assets/css/animation.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700;800;900&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style1.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/responsive1.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/jquery.convform1.css">
+    
+    <script type="text/javascript" src="./assets/js/jquery.convform1.js"></script>
+    <script type="text/javascript" src="./assets/js/custom1.js"></script>
+   
+    <!-- ChatBot -->
+   
+    
+
+</head>
+    
+<body>
+<!-- ChatBot -->
+<div class="chat_icon">
+	<i class="fa fa-comments" aria-hidden="true"style="color:grey"></i>
+</div>
+
+<div class="chat_box">
+	<div class="my-conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+
+      <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="WebDevelopment">About Scholarship</option>
+        <option value="DigitalMarketing">having some problem</option>
+      </select>
+
+      <div data-conv-fork="category">
+        <div data-conv-case="WebDevelopment">
+          <input type="text" name="domainName" data-conv-question="Please, tell me your standard ?">    
+        </div>
+        <div data-conv-case="DigitalMarketing" data-conv-fork="first-question2">
+          <input type="text" name="companyName" data-conv-question="Please, tell me , what's your problem?"> 
+        </div>
+      </div>
+
+      <input type="text" name="name" data-conv-question="Please, Enter your name">
+
+      <input type="text" data-conv-question="Hi {name}, <br> It's a pleasure to meet you.i request you to go to our scholarsip portal in Tri-naytra website." data-no-answer="true">
+
+      <input data-conv-question="Please share your e-mail for detail information..." data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" type="email" name="email" required placeholder="What's your e-mail?">
+
+      <select data-conv-question="Please Confirm">
+        <option value="Yes">Confirm</option>
+      </select>
+	  <input type="text" name="name" data-conv-question="Thank you &#128522;">
+  	</form>
+	</div>
+</div>
+<!-- ChatBot end -->
+  <!--
+    - main container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-brand">
+          <a href="#home"><img src="./assets/images/logos.png" alt="Educator Logo" width="182px" height="44px"></a>
+        </div>
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#schorlarship">Scholarship</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="assets/contact/index.html" target="_blank">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <div id="login-btn">
+          <a href="#"></a><button class="btnes btnes-primary"><i class="far fa-user"></i>Login</button></a>
+      </div>
+      <div id="login-btn">
+          <a href="#"><button class="btnes btnes-primary"> <i class="fa fa-lock"></i> Register</button></a>
+      </div>
+
+        <button class="nav-toggle-btn">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </nav>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME SECTION
+      -->
+
+      <section class="home" id="home">
+
+        <div class="deco-shape shape-1">
+          <img src="./assets/images/shape-1.png" alt="art shape" width="70">
+        </div>
+        <div class="deco-shape shape-2">
+          <img src="./assets/images/shape-2.png" alt="art shape" width="55">
+        </div>
+        <div class="deco-shape shape-3">
+          <img src="./assets/images/shape-3.png" alt="art shape" width="120">
+        </div>
+        <div class="deco-shape shape-4">
+          <img src="./assets/images/shape-4.png" alt="art shape" width="30">
+        </div>
+
+        <div class="home-left">
+
+          <p class="section-subtitle">Welcome To TRINAYTRA</p>
+
+          <h1 class="main-heading">
+            India’s Largest Platform 
+            For
+            <span class="underline-img">Scholarship <img src="./assets/images/Untitled_design__1_-removebg-preview.png" alt="line"></span>
+          </h1>
+
+          <div class="home-btn-group">
+            <button class="btn btn-primary">
+              <a href="assets/contact/index.html" target="_blank"><p class="btn-text">Contact Us</p></a>
+              <span class="square"></span>
+            </button>
+
+            <button class="btn btn-secondary">
+              <a href="apply.html" target="_blank"><p class="btn-text">Apply Now</p></a>
+              <span class="square"></span>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="home-right">
+
+          <div class="img-box">
+
+            <img src="./assets/images/banner-img-bg.png" alt="colorful background shape" class="background-shape">
+            <img src="./assets/images/Untitled_design__2_-removebg-preview.png" alt="banner image" class="banner-img">
+            <img src="./assets/images/banner-aliment-icon-1.png" alt="" class="icon-1 smooth-zigzag-anim-1" width="250">
+            <img src="./assets/images/banner-aliment-icon-3.png" alt="" class="icon-3 smooth-zigzag-anim-3" width="195">
+            <img src="./assets/images/banner-aliment-icon-4.png" alt="" class="icon-4 drop-anim">
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #COURSE CATEGORY SECTION
+      -->
+
+      <section class="category" id="schorlarship">
+        <h2 class="section-title">Scholarship For</h2>
+
+        <ul class="course-item-group">
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-1.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-1-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="apply8.html">Upto Class 8</a>
+              </h3>
+
+              <p class="category-subtitle">Best Scholarship</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-2.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-2-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="apply10.html">Pre-Matric (Classes 9-10)</a>
+              </h3>
+
+              <p class="category-subtitle">Improve your study</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-3.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-3-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="apply12.html">Post-Matric (Classes 11-12)</a>
+              </h3>
+
+              <p class="category-subtitle">Fun & Challenging</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-4.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-4-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="appgraduate.html">Gradutation</a>
+              </h3>
+
+              <p class="category-subtitle">Best Scholarship</p>
+            </div>
+
+          </li>
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-4.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-4-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="appeng.html">Enginering</a>
+              </h3>
+
+              <p class="category-subtitle">Improve your study</p>
+            </div>
+
+          </li>
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-4.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-4-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="appmed.html">Medical</a>
+              </h3>
+
+              <p class="category-subtitle">Fun & Challenging</p>
+            </div>
+
+          </li>
+
+          
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-5.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-5-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="applaw.html">Law</a>
+              </h3>
+
+              <p class="category-subtitle">Best Scholarship</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-5.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-5-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="appsa.html">Study Abroad</a>
+              </h3>
+
+              <p class="category-subtitle">Improve your study</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-6.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-6-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="appmang.html">Managment</a>
+              </h3>
+
+              <p class="category-subtitle">Fun & Challenging</p>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT SECTION
+      -->
+
+      <section class="about" id="about">
+
+        <div class="about-left">
+
+          <div class="img-box">
+            <img src="./assets/images/about-img-bg.png" alt="about bg" class="about-bg">
+
+            <img src="./assets/images/about-img.png" alt="about person" class="about-img">
+
+            <img src="./assets/images/banner-aliment-icon-1.png" alt="" class="icon-1 smooth-zigzag-anim-1" width="250">
+            <img src="./assets/images/banner-aliment-icon-3.png" alt="" class="icon-2 smooth-zigzag-anim-3" width="195">
+          </div>
+
+        </div>
+
+        <div class="about-right">
+
+          <h2 class="section-title">How TRI NAYTRA Works</h2>
+
+          <ul class="about-ul">
+
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Register And Create Your Profile.</p>
+            </li>
+
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Sign up with Facebook/Gmail/Mobile number or email id.</p>
+            </li>
+
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Verify your mobile number and email address.</p>
+            </li>
+
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Complete your profile i.e.required fields.</p>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">
+            <p class="btn-text">Register Now</p>
+            <span class="square"></span>
+          </button>
+
+        </div>
+
+      </section>
+      <!--
+        - #FEATURES SECTION
+      -->
+
+      <section class="features">
+
+        <div class="features-left">
+
+          <!--p class="section-subtitle">Core Features</p-->
+
+          <h2 class="section-title">See What Our Mission Are</h2>
+
+          <ul>
+
+            <li class="features-item">
+              <div class="item-icon-box blue">
+                <img src="./assets/images/feature-icon-1.png" alt="feature icon">
+              </div>
+
+              <div class="wrapper">
+
+                <h3 class="item-title">Student Life</h3>
+
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon-box pink">
+                <img src="./assets/images/feature-icon-2.png" alt="feature icon">
+              </div>
+
+              <div class="wrapper">
+
+                <h3 class="item-title">Best Scholarship</h3>
+
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon-box purple">
+                <img src="./assets/images/feature-icon-3.png" alt="feature icon">
+              </div>
+
+              <div class="wrapper">
+
+                <h3 class="item-title">24x7 Program</h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="features-right">
+          <img src="./assets/images/coure-features-img.jpg" alt="core features image">
+        </div>
+
+      </section>
+
+       <!--slider starts-->
+    <div class="cont">
+      <h2 class="text-center font-weight-bold">Our Partners</h2>
+      <section class="customer-logos slider">
+          <div class="slide"><img src="./assets/images/partner/c-1-removebg-preview.png" alt="logo" width="100px"></div>
+          <div class="slide"><img src="./assets/images/partner/c3-removebg-preview.png" alt="logo" width="100px"></div>
+          <div class="slide"><img src="./assets/images/partner/c2-removebg-preview.png" alt="logo" width="100px"></div>
+          <div class="slide"><img src="./assets/images/partner/cropped-PicsArt_07-28-06.32.16.png" alt="logo" width="100px"></div>
+          <div class="slide"><img src="./assets/images/partner/logo.png" alt="logo" width="100px"></div>
+          <div class="slide"><img src="./assets/images/partner/LOGO13-1.png" alt="logo" width="100px"></div>
+          <div class="slide"><img src="./assets/images/partner/YATRA-HOLIC.png" alt="logo" width="100px"></div>
+          <div class="slide"><img src="./assets/images/partner/torque_motor-removebg-preview.png" alt="logo" width="100px"></div>
+          <div class="slide"><img src="./assets/images/partner/media_file_2a3b22ecd72d4f4be70ca3ad1030193d.png" alt="logo" width="100px"></div>
+      </section>
+  </div>
+  <!--slider-->
+
+
+      
+      <!--blog-->
+
+      <section class="blog" id="blog">
+
+        <p class="section-subtitle">Our Blog</p>
+
+        <h2 class="section-title">Latest Blog & News</h2>
+
+        <div class="blog-grid">
+
+          <div class="blog-card">
+
+            <div class="blog-banner-box">
+              <img src="./assets/images/blog-1.jpg" alt="blog banner">
+            </div>
+
+            <div class="blog-content">
+
+              <h3 class="blog-title">
+                <a href="#">Careers of the new age.</a>
+              </h3>
+
+              <div class="wrapper">
+
+                <div class="blog-publish-date">
+                  <img src="./assets/images/calendar.png" alt="calendar icon">
+
+                  <a href="#">07 Jan, 2022</a>
+                </div>
+
+                <div class="blog-comment">
+                  <img src="./assets/images/comment.png" alt="comment icon">
+
+                  <a href="#">3 Comments</a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+
+            <div class="blog-banner-box">
+              <img src="./assets/images/blog-2.jpg" alt="blog banner">
+            </div>
+
+            <div class="blog-content">
+
+              <h3 class="blog-title">
+                <a href="#">Real-time guidance.</a>
+              </h3>
+
+              <div class="wrapper">
+
+                <div class="blog-publish-date">
+                  <img src="./assets/images/calendar.png" alt="calendar icon">
+
+                  <a href="#">04 Jan, 2022</a>
+                </div>
+
+                <div class="blog-comment">
+                  <img src="./assets/images/comment.png" alt="comment icon">
+
+                  <a href="#">10 Comments</a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+
+            <div class="blog-banner-box">
+              <img src="./assets/images/blog-3.jpg" alt="blog banner">
+            </div>
+
+            <div class="blog-content">
+
+              <h3 class="blog-title">
+                <a href="#">Future prospects of each career.</a>
+              </h3>
+
+              <div class="wrapper">
+
+                <div class="blog-publish-date">
+                  <img src="./assets/images/calendar.png" alt="calendar icon">
+
+                  <a href="#">01 Jan, 2022</a>
+                </div>
+
+                <div class="blog-comment">
+                  <img src="./assets/images/comment.png" alt="comment icon">
+
+                  <a href="#">5 Comments</a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+    <!--
+      - #FOOTER
+    -->
+
+    <footer>
+
+      <div class="footer-grid">
+
+        <div class="grid-item">
+
+          <div class="footer-logo">
+            <img src="./assets/images/logos.png" alt="educator logo white" width="182px" height="44px">
+          </div>
+
+          <p class="footer-text">
+            Trinaytra strives to provide a distinguished career path to all those who embark upon the journey of going global and utilizing their knowledge for the betterment of self and society.
+          </p>
+
+          <div class="social-link">
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </div>
+
+        </div>
+
+        <ul class="grid-item">
+
+          <h4 class="item-heading">Our Link</h4>
+
+          <li class="list-item">
+            <a href="#home">Home</a>
+          </li>
+
+          <li class="list-item">
+            <a href=#schorlarship>Scholarship</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#about">About Us</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#blog">Blog</a>
+          </li>
+
+          <li class="list-item">
+            <a href="assets/contact/index.html" target="_blank">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="grid-item">
+
+          <h4 class="item-heading">Other Link</h4>
+
+          <!--li class="list-item">
+            <a href="#"></a>
+          </li-->
+
+          <li class="list-item">
+            <a href="#">FAQ</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#">Team</a>
+          </li>
+
+          <li class="list-item">
+            <a href="./assets/privacy.html">Privacy Policy</a>
+          </li>
+
+          <li class="list-item">
+            <a href="assets/term/index.html">Term & Condition</a>
+          </li>
+
+        </ul>
+
+        <div class="grid-item">
+
+          <h4 class="item-heading">Subscribe Now</h4>
+
+          <div class="wrapper">
+            <input type="text" name="subscribe" placeholder="Email Address">
+            <button class="send-btn">
+              <ion-icon name="paper-plane"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <p class="copyright">
+        Copyright © 2022 <a href="#">TRINAYTRA</a>. All rights reserved.
+      </p>
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+  <script type="text/javascript">
+    portfolioList = document.querySelectorAll('.portfolio-box');
+    portfolioList.forEach(function(portfolioPic) {
+      portfolioPic.addEventListener('click',function(){
+        bg = this.style.backgroundImage;
+        document.getElementById('port_pop_pic_bg').classList.add("active")
+        document.getElementById('port_pop_pic').style.backgroundImage = bg
+        document.getElementById('port_pop_pic').classList.add("active")
+      });	
+    })
+    document.getElementById('port_pop_pic_bg').addEventListener('click',function(){
+        document.getElementById('port_pop_pic_bg').classList.remove("active")
+        document.getElementById('port_pop_pic').classList.remove("active")
+    })
+  </script>
+  
+
+</body>
+
+</html>

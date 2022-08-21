@@ -1,0 +1,12 @@
+.privacy{
+    height:100%;
+  width:50%;
+  box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
+  border-left: .5rem solid var(--orange);
+  border-right: .5rem solid var(--orange);
+  border-radius: .5rem;
+  text-align: center;
+  padding-top: 6rem;
+  margin:2rem 18%;
+  padding: 6rem;
+}
